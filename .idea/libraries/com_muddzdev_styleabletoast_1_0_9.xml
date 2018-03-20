@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.muddzdev:styleabletoast-1.0.9">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/d4dada04e9a2859a9cd0865e628e248be1c15025/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d4dada04e9a2859a9cd0865e628e248be1c15025/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.muddzdev/styleabletoast/1.0.9/df1d3a1cce8dd93e1a4ba23e2c9dee7e2a5c7def/styleabletoast-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

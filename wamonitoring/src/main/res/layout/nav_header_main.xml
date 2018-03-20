@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <io.ghyeok.stickyswitch.widget.StickySwitch
+        android:id="@+id/onOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ss_animationDuration="300"
+        app:ss_iconPadding="5dp"
+        app:ss_iconSize="16dp"
+        app:ss_leftIcon="@android:drawable/presence_offline"
+        app:ss_leftText="OUT"
+        app:ss_rightIcon="@android:drawable/presence_online"
+        app:ss_rightText="IN"
+        app:ss_selectedTextSize="12sp"
+        app:ss_sliderBackgroundColor="@color/black"
+        app:ss_switchColor="@color/light_blue"
+        app:ss_textColor="@color/white"
+        app:ss_textSize="10sp"
+        app:ss_animationType="line"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_profile"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/logo"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="2dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:id="@+id/judul"
+        android:layout_above="@+id/textView"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.studio@android.com"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

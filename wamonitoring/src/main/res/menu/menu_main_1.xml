@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lesjaw.wamonitoring.ui.fragment.MainControl">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_chat"
+        android:orderInCategory="100"
+        android:title="@string/action_chat"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_foto"
+        android:orderInCategory="100"
+        android:title="@string/action_add_foto"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+
+</menu>

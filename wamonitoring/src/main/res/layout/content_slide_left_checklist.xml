@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_slide_up_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="45dp"
+    android:paddingRight="-5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lesjaw.wamonitoring.ui.MainActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/slideViewLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/rounded_up_corners_bg">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ln1"
+            android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:text="click to close it down"
+            android:textColor="@color/grey"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView"
+            app:srcCompat="@drawable/ic_keyboard_arrow_right_black_18dp"
+            android:layout_marginRight="25dp"
+            android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textStyle="bold"
+            android:layout_below="@+id/ln1"
+            android:text="testing data dari log"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_checklist"
+            android:layout_below="@+id/textView1"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="10dp">
+
+        </ListView>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

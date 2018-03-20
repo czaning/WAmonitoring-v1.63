@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/cklist"
+        android:title="View checklist"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@mipmap/barcode_img"/>
+    <item android:id="@+id/employee"
+        android:title="View Employee"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_face_black_48dp"/>
+
+</menu>

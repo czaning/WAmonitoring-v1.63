@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pattern_bg2">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:id="@+id/fab"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_foto"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/logo"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_foto"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ln">
+
+        <TextView
+            android:id="@+id/term"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Term &amp; Condition"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/termText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is term and license \n "
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/termUserService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms &amp; Condition of Use of the service"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/termUserServiceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is term and license \n "
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/persetujuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persetujuan Syarat &amp; Ketentuan"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/persetujuanText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is term and license \n "
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

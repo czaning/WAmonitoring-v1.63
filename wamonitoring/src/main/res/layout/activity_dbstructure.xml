@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_emp"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:id="@+id/main_content"
+    >
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:background="@color/node_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+        <com.nightonke.boommenu.BoomMenuButton
+            android:id="@+id/bmb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bmb_rippleEffect="true"
+            app:bmb_use3DTransformAnimation="true"
+            app:bmb_dotRadius="0dp"
+            app:bmb_buttonEnum="ham"
+            app:bmb_piecePlaceEnum="piecePlace_ham_6"
+            app:bmb_buttonPlaceEnum="buttonPlace_ham_6"
+            app:bmb_hamWidth="0dp"
+            app:bmb_hamHeight="0dp"
+            app:bmb_draggable="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_create_db"
+                android:layout_marginLeft="3dp"/>
+
+
+        </com.nightonke.boommenu.BoomMenuButton>
+
+        <com.nightonke.boommenu.BoomMenuButton
+            android:id="@+id/bmb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bmb_buttonEnum="ham"
+            app:bmb_buttonPlaceEnum="buttonPlace_ham_2"
+            app:bmb_normalColor="@color/light_blue"
+            app:bmb_piecePlaceEnum="piecePlace_ham_2"
+            app:bmb_rippleEffect="true"
+            app:bmb_use3DTransformAnimation="true"
+            app:bmb_draggable="true"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

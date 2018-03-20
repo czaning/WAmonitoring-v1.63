@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_black_gradient"
+                android:scaleType="centerCrop" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_profile"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:src="@mipmap/logo"
+                android:transitionName="@string/imgProfile"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_profile"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="7dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tgl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/pink"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10sp"
+                        android:paddingRight="10sp"
+                        android:paddingTop="5dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:text="01:04"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <com.github.chrisbanes.photoview.PhotoView
+                        android:id="@+id/ImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/logowam"
+                        android:transitionName="@string/imgView" />
+
+
+                    <TextView
+                        android:id="@+id/note"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lastseen"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/amber"
+                        android:gravity="center"
+                        android:padding="5sp"
+                        android:paddingTop="5sp"
+                        android:shadowColor="@color/light_blue"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:text="Division head"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:transitionName="@string/textview" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/ln1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cv">
+
+                <ImageView
+                    android:id="@+id/imgCom"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@mipmap/ic_comment" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingTop="5dp"
+                    android:text="Comments" />
+
+
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvMonth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ln1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="7dp"
+                card_view:cardUseCompatPadding="true">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="225dp"
+                    android:maxLines="1" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/ButComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:foreground="?android:selectableItemBackground"
+                android:src="@android:drawable/ic_menu_send"
+                app:backgroundTint="@color/light_blue"
+                app:elevation="10dp"
+                android:layout_below="@+id/cv"
+                android:layout_alignEnd="@+id/cvMonth" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

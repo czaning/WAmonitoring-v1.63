@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical"
+    android:background="@drawable/pattern_bg2"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/labelrl">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/node_title"
+                android:layout_centerVertical="true"/>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/companylabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                card_view:cardCornerRadius="20dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/white"
+                >
+
+                <TextView
+                    android:id="@+id/labelpt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="PT Indo Olmatix tech"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelrl"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/ln1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/db"
+                            android:layout_width="150sp"
+                            android:layout_height="150sp"
+                            android:layout_margin="1dp"
+                            android:background="@drawable/bt_cre_db"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground" />
+
+                        <Button
+                            android:id="@+id/view_data"
+                            android:layout_width="150sp"
+                            android:layout_height="150sp"
+                            android:layout_margin="1dp"
+                            android:background="@drawable/bt_view_db"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ln2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ln1"
+                        android:layout_marginBottom="0sp"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/tracking"
+                            android:layout_width="150sp"
+                            android:layout_height="150sp"
+                            android:layout_margin="1dp"
+                            android:background="@drawable/bt_track_empolyee"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground" />
+
+                        <Button
+                            android:id="@+id/search"
+                            android:layout_width="150sp"
+                            android:layout_height="150sp"
+                            android:layout_margin="1dp"
+                            android:background="@drawable/bt_employee_db"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground" />
+                    </LinearLayout>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_profile"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="5sp"
+                        android:src="@mipmap/logo"
+                        app:civ_border_color="#FFFFFF"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="2dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl1"
+                    android:layout_marginBottom="0sp"
+                    android:layout_marginTop="10sp"
+                    android:gravity="center">
+
+
+                    <com.github.lzyzsd.circleprogress.ArcProgress
+                        android:id="@+id/arc_progress1"
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        android:layout_below="@+id/status_package"
+                        app:arc_bottom_text="Users"
+                        app:arc_bottom_text_size="15sp"
+                        app:arc_max="30"
+                        app:arc_progress="50"
+                        app:arc_suffix_text=" #"
+                        app:paddingEnd="10sp"
+                        app:paddingStart="10sp" />
+
+                    <com.github.lzyzsd.circleprogress.ArcProgress
+                        android:id="@+id/arc_progress2"
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        android:layout_marginLeft="20sp"
+                        app:arc_bottom_text="Tags"
+                        app:arc_bottom_text_size="15sp"
+                        app:arc_max="30"
+                        app:arc_progress="50"
+                        app:arc_suffix_text=" #"
+                        app:paddingEnd="10sp"
+                        app:paddingStart="10sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20sp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="lesjaw@gmail.com"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/labelrl2"
+                    >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/node_title"
+                    android:layout_centerVertical="true"/>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/chatLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="15dp"
+                    card_view:cardElevation="2dp"
+                    card_view:cardUseCompatPadding="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:id="@+id/labellasttag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="Log tags by push notif"
+                        android:maxLines="1"/>
+
+                </android.support.v7.widget.CardView>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

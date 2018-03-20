@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/pattern_bg2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pack"
+            android:text="database structure"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginBottom="10sp"
+            android:textColor="@color/white"
+            android:shadowColor="#000000"
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.6"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pack"
+            android:id="@+id/ln"
+            android:gravity="center"
+            android:layout_marginBottom="1dp"
+            >
+
+            <Button
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:id="@+id/divison"
+                android:background="@drawable/bt_create_div"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"/>
+            <Button
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:id="@+id/employment"
+                android:layout_margin="1dp"
+                android:background="@drawable/bt_cre_employment"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ln"
+            android:id="@+id/ln1"
+            android:gravity="center"
+            android:layout_marginBottom="1sp"
+            >
+
+            <Button
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:id="@+id/employee_status"
+                android:layout_margin="1dp"
+                android:background="@drawable/bt_cre_status"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"/>
+            <Button
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:id="@+id/add_employee"
+                android:layout_margin="1dp"
+                android:background="@drawable/bt_cre_user"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ln1"
+            android:id="@+id/ln2"
+            android:gravity="center"
+            android:layout_marginBottom="1dp">
+            <Button
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:id="@+id/tags"
+                android:layout_margin="1dp"
+                android:background="@drawable/bt_create_check"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"/>
+
+            <Button
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:id="@+id/lock_tags"
+                android:layout_margin="1dp"
+                android:background="@drawable/bt_write_check"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+

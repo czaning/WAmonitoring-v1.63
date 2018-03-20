@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+     android:id="@+id/group_button"
+        >
+        <item android:id="@+id/nav_create_db"
+            android:icon="@mipmap/ic_create_db"
+            android:title="Create DB" />
+        <item android:id="@+id/nav_tag_monitor"
+            android:icon="@drawable/ic_business_black_48dp"
+            android:title="Tag Monitoring" />
+
+        <item android:id="@+id/nav_track_employee"
+            android:icon="@drawable/location"
+            android:title="Tracking Employee" />
+
+        <item android:id="@+id/nav_employee_db"
+            android:icon="@drawable/ic_face_black_48dp"
+            android:title="Employee DB" />
+
+        <item android:id="@+id/nav_absence"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Absence" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_pref">
+        <item android:id="@+id/nav_preferences"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Settings" />
+        <item android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About" />
+
+        <item android:id="@+id/nav_version"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Version" />
+    </group>
+</menu>

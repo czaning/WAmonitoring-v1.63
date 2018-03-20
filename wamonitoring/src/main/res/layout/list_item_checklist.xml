@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tclid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Led Blinking"
+        android:id="@+id/cbchecklist"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note"
+        android:textColor="@color/black"
+        android:inputType="textCapWords"
+        android:layout_toRightOf="@+id/cbchecklist"
+        android:padding="5dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lesjaw.wamonitoring.ui.fragment.MainControl">
+
+    <item
+        android:id="@+id/action_search_Name"
+        android:orderInCategory="100"
+        android:title="@string/action_searchbyname"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search_email"
+        android:orderInCategory="100"
+        android:title="@string/action_searchbyemail"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search_division"
+        android:orderInCategory="100"
+        android:title="@string/action_searchbdivision"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search_employment"
+        android:orderInCategory="100"
+        android:title="@string/action_searchbyemployment"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search_status"
+        android:orderInCategory="100"
+        android:title="@string/action_searchbystatus"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search_clear"
+        android:orderInCategory="100"
+        android:title="@string/action_searchclear"
+        app:showAsAction="never" />
+
+</menu>

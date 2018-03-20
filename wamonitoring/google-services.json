@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134410780319",
+    "firebase_url": "https://wamonitoring-83f21.firebaseio.com",
+    "project_id": "wamonitoring-83f21",
+    "storage_bucket": "wamonitoring-83f21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134410780319:android:485b72b2fb857e6e",
+        "android_client_info": {
+          "package_name": "com.lesjaw.wamonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134410780319-dd5a3nejpmlnc2npq4rs6at2h4pv97uk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lesjaw.wamonitoring",
+            "certificate_hash": "3a2229ec973ec2860970b30dc786228436e29d61"
+          }
+        },
+        {
+          "client_id": "134410780319-9toa60betibirmjnuing157vkqrn30q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaTndCaV-WX3Z03ILj2huPiE7L760vWo8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134410780319-9toa60betibirmjnuing157vkqrn30q8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

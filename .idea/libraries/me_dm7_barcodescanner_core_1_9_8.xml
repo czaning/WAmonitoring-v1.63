@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="me.dm7.barcodescanner:core-1.9.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/422cde7e1119f28380d77a8c11bb7864bdc351f7/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/422cde7e1119f28380d77a8c11bb7864bdc351f7/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

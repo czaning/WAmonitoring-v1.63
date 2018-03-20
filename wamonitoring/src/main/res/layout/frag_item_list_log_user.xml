@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/liner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:selectableItemBackground"
+        android:clickable="true"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tag_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5sp"
+                android:paddingTop="5sp"
+                android:shadowColor="@color/light_blue"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:text="Parkir Lt1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/tgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tag_name"
+                android:background="@color/pink"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:shadowColor="#000000"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:text="01:04"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <ImageView
+                android:id="@+id/cklist"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tag_name"
+                android:layout_marginRight="5sp"
+                android:padding="5sp"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/checkbox_off_background"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:id="@+id/before_photo"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/after_photo"
+                android:src="@mipmap/logo" />
+
+            <ImageView
+                android:id="@+id/after_photo"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/cklist"
+                android:src="@mipmap/logo" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

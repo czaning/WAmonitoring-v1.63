@@ -1,0 +1,140 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_general">
+
+
+        <Preference
+        android:icon="@drawable/ic_info_black_24dp"
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="real_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name"
+        android:editable="false"/>
+
+        <Preference
+        android:icon="@drawable/ic_info_black_24dp"
+        android:capitalize="words"
+        android:defaultValue="@string/pref_company_address"
+        android:inputType="textCapWords"
+        android:key="birth"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_birth" />
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_email"
+            android:inputType="textCapWords"
+            android:key="email"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_email"
+            android:editable="false"/>
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_password"
+            android:inputType="textCapWords"
+            android:key="password"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_password"
+            android:editable="false"/>
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_company_name"
+            android:inputType="textCapWords"
+            android:key="company_name"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_company_name"
+            android:editable="false"/>
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_company_address"
+            android:inputType="textCapWords"
+            android:key="company_id"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_company_id"
+            android:editable="false"/>
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_company_address"
+            android:inputType="textCapWords"
+            android:key="company_address"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_company_address" />
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_employee_address"
+            android:inputType="textCapWords"
+            android:key="employee_address"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_employee_address" />
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_company_address"
+            android:inputType="textCapWords"
+            android:key="phone1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_phone1"
+            android:editable="false"/>
+
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_company_address"
+            android:inputType="textCapWords"
+            android:key="phone2"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_phone2"
+            android:editable="false"/>
+
+        <Preference
+            android:icon="@drawable/ic_info_black_24dp"
+            android:capitalize="words"
+            android:defaultValue="@string/pref_company_address"
+            android:inputType="textCapWords"
+            android:key="division"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_division"
+            android:editable="false"/>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

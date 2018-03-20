@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <FrameLayout
+        android:alpha="0"
+        android:id="@+id/dim"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/bg_black_gradient" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_below="@+id/edit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@mipmap/logo"
+                    android:transitionName="@string/imgProfile"
+                    app:civ_border_color="#FFFFFF"
+                    app:civ_border_width="2dp" />
+
+                <ImageButton
+                    android:id="@+id/edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/img_profile"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/img_profile"
+                    android:layout_marginBottom="8dp"
+                    android:padding="3sp"
+                    android:src="@android:drawable/ic_menu_edit" />
+
+
+            </RelativeLayout>
+
+            <android.support.design.widget.FloatingActionButton xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/phoneBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="?android:selectableItemBackground"
+                app:backgroundTint="@color/amber"
+                app:srcCompat="@mipmap/ic_phone"
+                app:elevation="9dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="161dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="7dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/employee_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5sp"
+                        android:text="Jhon Smith"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/place_dateBirth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/employee_name"
+                        android:maxLines="1"
+                        android:padding="5sp"
+                        android:text="Jakarta, 1 Juni 1976" />
+
+                    <TextView
+                        android:id="@+id/employee_div"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/place_dateBirth"
+                        android:padding="5sp"
+                        android:text="Security" />
+
+                    <TextView
+                        android:id="@+id/employee_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/employee_div"
+                        android:paddingLeft="10sp"
+                        android:paddingRight="10sp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:text="Jhon@gmail.com"
+                        android:textColor="@color/white"
+                        android:theme="@style/AppTheme.Button_amber" />
+
+                    <TextView
+                        android:id="@+id/employee_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/employee_email"
+                        android:padding="5sp"
+                        android:text="Jl. Akses UI 45 - 081270912901" />
+
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/employee_address"
+                        android:padding="5sp"
+                        android:text="Phone 081270912901" />
+
+
+                    <TextView
+                        android:id="@+id/lastseen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/phone"
+                        android:padding="5sp"
+                        android:paddingTop="5sp"
+                        android:shadowColor="@color/light_blue"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:text="14-04-2017 22:10"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/level_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/lastseen"
+                        android:background="@color/amber"
+                        android:gravity="end"
+                        android:padding="5sp"
+                        android:paddingTop="5sp"
+                        android:shadowColor="@color/light_blue"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:text="Division head"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <include layout="@layout/content_slide_up_tags_detail" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvMonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="7dp"
+                card_view:cardUseCompatPadding="true">
+
+
+                <TextView
+                    android:id="@+id/tagMonth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="5sp"
+                    android:text="20" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvToday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cvMonth"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="7dp"
+                card_view:cardUseCompatPadding="true">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvLoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Wokring"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/cvToday"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="7dp"
+                card_view:cardUseCompatPadding="true">
+
+
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:map="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context="com.lesjaw.wamonitoring.ui.MapsActivity"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working location"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:textStyle="bold|italic"/>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

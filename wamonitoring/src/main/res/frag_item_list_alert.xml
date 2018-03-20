@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:background="?android:selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/employee_name"
+                android:text="Jhon Smith"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tag_name"
+                android:text="Parkir Lt1"
+                android:paddingLeft="5sp"
+                android:maxLines="1"
+                android:layout_alignParentRight="true"
+                android:paddingRight="5sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/range_loc"
+                android:text="14"
+                android:padding="5sp"
+                android:layout_below="@+id/division_name"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/division_name"
+                android:text="Security"
+                android:layout_below="@+id/employee_name"
+                android:paddingLeft="5sp"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgl"
+                android:text="14-09-2017 jam : 01:04"
+                android:layout_below="@+id/division_name"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:shadowColor="#000000"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:theme="@style/AppTheme.Button_amber"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/tgl"
+                android:id="@+id/before_photo"
+                android:src="@mipmap/logo"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/before_photo"
+                android:id="@+id/after_photo"
+                android:src="@mipmap/logo"
+                android:layout_centerVertical="true"
+                />
+
+            <ImageView
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:src="@android:drawable/checkbox_off_background"
+                android:scaleType="fitCenter"
+                android:layout_alignParentRight="true"
+                android:padding="5sp"
+                android:id="@+id/cklist"
+                android:layout_below="@+id/tag_name"
+                android:layout_marginRight="5sp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

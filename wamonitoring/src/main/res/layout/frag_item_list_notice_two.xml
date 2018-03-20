@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imgview"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logowam"
+                android:scaleType="centerCrop"
+                android:transitionName="@string/imgView"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5sp"
+                android:src="@mipmap/logo"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_overlay="true"
+                app:civ_border_width="1dp"
+                android:transitionName="profile"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/notes"
+                android:text="Panic!"
+                android:padding="10sp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:shadowColor="@color/white"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:gravity="center"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit ="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_alignBottom="@+id/imgview"
+                android:background="#CCFFD740"
+                android:transitionName="@string/textview"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imgview"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:background="#CC000000"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/ic_comment"
+                    android:layout_toLeftOf="@+id/comments"
+                    android:tint="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:background="@color/trans"
+                    android:layout_margin="5dp"
+                    android:id="@+id/comments"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">EMP-monitoring</string>
+    <string name="description">type your password here</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_title_user_name">User Name</string>
+    <string name="pref_title_birth"><![CDATA[Place & Date Birth]]></string>
+    <string name="pref_general">USER DETAILS</string>
+    <string name="pref_password">Password</string>
+    <string name="pref_email">Email</string>
+    <string name="pref_company_name">Company Name</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_default_birth">none</string>
+    <string name="pref_default_email">default@email.com</string>
+    <string name="trial_feat">10 users \n5 tags/QR Code \nfree trial 3 month</string>
+    <string name="beginner_feat">100 users \n50 tags/QR Code \nRp. 5.000.000/month</string>
+    <string name="advance_feat">250 users \n150 tags/QR Code \nRp. 11.500.000/month</string>
+    <string name="expert_feat">contact us \nPh. 0813-10147989\nlesjaw@olmatix.com</string>
+    <string name="action_add_employee">Tags</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_add_tag">Not Function yet</string>
+    <string name="pref_company_address">none</string>
+    <string name="pref_title_company_address">Company Address</string>
+    <string name="pref_employee_address">none</string>
+    <string name="pref_title_employee_address">Employee Address</string>
+    <string name="pref_company_id">Company ID</string>
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="pref_division">Division</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_searchbyname">Search by Name</string>
+    <string name="action_searchbyemail">Search by Email</string>
+    <string name="action_searchbyemployment">Search by Employment</string>
+    <string name="action_searchbystatus">Search by Status</string>
+    <string name="action_searchbdivision">Search by Division</string>
+    <string name="action_searchclear">Clear Search</string>
+    <string name="pref_phone1">Phone Number 1</string>
+    <string name="pref_phone2">Phone Number 2</string>
+    <string name="action_add_foto">Photo Profile</string>
+    <string name="chooseaction">1</string>
+    <string name="action_chat">Enter Chat</string>
+
+
+    <string name="uploading">Uploaded [[UPLOADED_FILES]] of [[TOTAL_FILES]] at [[UPLOAD_RATE]] - [[PROGRESS]]</string>
+    <string name="cancel_upload">Cancel</string>
+    <string name="upload_success">Upload completed successfully in [[ELAPSED_TIME]]</string>
+    <string name="upload_error">Error while uploading</string>
+    <string name="upload_cancelled">Upload has been cancelled</string>
+    <string name="ftp_upload">Photo Upload</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imgProfile">image profile</string>
+    <string name="imgView">imgview</string>
+    <string name="textview">textview</string>
+    <string name="pref_title_panic">Panic Button sound</string>
+    <string name="appwidget_text">Tags by Today</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

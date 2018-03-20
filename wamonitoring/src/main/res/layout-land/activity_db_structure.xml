@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
+    android:background="@drawable/pattern_bg2">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/ln"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/divison"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="create division names"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    android:foreground="?android:selectableItemBackground"/>
+
+                <Button
+                    android:id="@+id/employment"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:backgroundTint="@color/amber"
+                    android:shadowColor="@color/white"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="create Employment Names"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    android:foreground="?android:selectableItemBackground"/>
+
+                <Button
+                    android:id="@+id/employee_status"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:backgroundTint="@color/node_title"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="create employees status"
+                    android:textColor="@color/white"
+                    android:clickable="true"
+                    android:foreground="?android:selectableItemBackground"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln"
+                android:layout_marginBottom="10sp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/add_employee"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:backgroundTint="@color/colorAccent"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="create user &amp; employees data"
+                    android:textColor="@color/white"
+                    android:clickable="true"
+                    android:foreground="?android:selectableItemBackground"/>
+
+                <Button
+                    android:id="@+id/tags"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="create checkpoint NFC &amp; barcode"
+                    android:textColor="@color/white"
+                    android:clickable="true"
+                    android:foreground="?android:selectableItemBackground"/>
+
+                <Button
+                    android:id="@+id/lock_tags"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:backgroundTint="@color/indigo"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="tags - checkpoints List"
+                    android:textColor="@color/white"
+                    android:clickable="true"
+                    android:foreground="?android:selectableItemBackground"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
