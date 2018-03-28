@@ -1,10 +1,11 @@
 <component name="libraryTable">
   <library name="com.github.ozodrukh:CircularReveal-1.1.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/bd59e19027902c83d197522673c3620a304c30f3/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/bd59e19027902c83d197522673c3620a304c30f3/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/81fce25afca44803384574b9c5143b9a8a814dfa/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/81fce25afca44803384574b9c5143b9a8a814dfa/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
+    <LIBRARY_FILE />
     <SOURCES />
   </library>
 </component>

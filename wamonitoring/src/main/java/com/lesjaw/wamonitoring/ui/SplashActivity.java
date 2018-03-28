@@ -3,6 +3,7 @@ package com.lesjaw.wamonitoring.ui;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -11,9 +12,15 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.View;
 
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.RetryPolicy;
 import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+import com.androidadvance.topsnackbar.TSnackbar;
 import com.lesjaw.wamonitoring.NetworkRequest;
 import com.lesjaw.wamonitoring.R;
 import com.lesjaw.wamonitoring.service.wamonitorservice;
@@ -25,7 +32,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class SplashActivity extends AppCompatActivity {
@@ -167,6 +176,8 @@ public class SplashActivity extends AppCompatActivity {
                 new Handler(Looper.getMainLooper()).postDelayed(() -> {
                     switch (result_level_user) {
                         case "0":
+                            new GetDivision().execute();
+
                             if (TextUtils.isEmpty(result_package) || result_package.equals("0")) {
                                 Intent i1 = new Intent(SplashActivity.this, PackageActivity.class);
                                 startActivity(i1);
@@ -256,6 +267,71 @@ public class SplashActivity extends AppCompatActivity {
         NetworkRequest.getInstance(this).addToRequestQueue(jsonObjReq);
 
 
+    }
+
+
+    private class GetDivision extends AsyncTask<Void, Void, Void> {
+
+        List<HashMap<String, String>> allNames;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+
+            RequestQueue MyRequestQueue = Volley.newRequestQueue(getBaseContext());
+
+            String url = "https://olmatix.com/wamonitoring/get_division.php";
+            StringRequest MyStringRequest = new StringRequest(Request.Method.POST, url, response -> {
+                allNames = new ArrayList<>();
+                JSONObject jsonResponse = null;
+                try {
+                    jsonResponse = new JSONObject(response);
+                    mPrefHelper.setDivisionFull(String.valueOf(response));
+
+                    JSONObject jObject = new JSONObject(response);
+                    String result_code = jObject.getString("success");
+                    if (result_code.equals("1")) {
+
+                    } else {
+                        TSnackbar snackbar = TSnackbar.make(coordinatorLayout,"currently you have no division name",TSnackbar.LENGTH_SHORT);
+                        View snackbarView = snackbar.getView();
+                        snackbarView.setBackgroundColor(Color.parseColor("#FF4081"));
+                        snackbar.show();
+                    }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }, error -> Log.d(TAG, "onErrorResponse: "+error)) {
+                protected Map<String, String> getParams() {
+                    Map<String, String> MyData = new HashMap<>();
+                    MyData.put("company_id", mCompanyID);
+                    return MyData;
+                }
+            };
+
+            // Adding request to request queue
+
+            int socketTimeout = 60000;//30 seconds - change to what you want
+            RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+            MyStringRequest.setRetryPolicy(policy);
+            MyRequestQueue.add(MyStringRequest);
+
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
+
+        }
     }
 
 

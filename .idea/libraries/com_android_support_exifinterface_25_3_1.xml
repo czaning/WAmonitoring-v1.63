@@ -1,10 +1,11 @@
 <component name="libraryTable">
   <library name="com.android.support:exifinterface-25.3.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/e5d26699f7257fd1f25532ed430076a9a552e834/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/e5d26699f7257fd1f25532ed430076a9a552e834/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/9eb674733a876f878a4eb5a3dda47a133638df2c/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/9eb674733a876f878a4eb5a3dda47a133638df2c/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
+    <LIBRARY_FILE />
     <SOURCES>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/exifinterface/25.3.1/exifinterface-25.3.1-sources.jar!/" />
     </SOURCES>
