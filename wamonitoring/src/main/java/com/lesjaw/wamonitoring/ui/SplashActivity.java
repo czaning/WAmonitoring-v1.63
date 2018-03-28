@@ -176,6 +176,7 @@ public class SplashActivity extends AppCompatActivity {
                 new Handler(Looper.getMainLooper()).postDelayed(() -> {
                     switch (result_level_user) {
                         case "0":
+
                             new GetDivision().execute();
 
                             if (TextUtils.isEmpty(result_package) || result_package.equals("0")) {
