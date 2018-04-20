@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.github.MAXDeliveryNG:slideview-1.0.2">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/1e7ec99bd902904077b109a40c031b0ea13a1298/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/1e7ec99bd902904077b109a40c031b0ea13a1298/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/8470451ae4a0b23c4a424a3449142b0124419fbc/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/8470451ae4a0b23c4a424a3449142b0124419fbc/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
