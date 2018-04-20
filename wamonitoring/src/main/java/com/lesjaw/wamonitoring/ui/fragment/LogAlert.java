@@ -34,6 +34,7 @@ import com.lesjaw.wamonitoring.model.tagsAlertModel;
 import com.lesjaw.wamonitoring.ui.EmployeeProfile;
 import com.lesjaw.wamonitoring.utils.Config;
 import com.lesjaw.wamonitoring.utils.EndlessRecyclerViewScrollListener;
+import com.lesjaw.wamonitoring.utils.PreferenceHelper;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -76,7 +77,6 @@ public class LogAlert extends android.support.v4.app.Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         //return super.onCreateView(inflater, container, savedInstanceState);
         return  inflater.inflate(R.layout.frag_log_alert, container, false);
-
     }
 
     @Override
@@ -204,14 +204,24 @@ public class LogAlert extends android.support.v4.app.Fragment {
         mSwipeRefreshLayout.setRefreshing(true);
 
         sharedPref = PreferenceManager.getDefaultSharedPreferences(getContext());
-        //PreferenceHelper mPrefHelper = new PreferenceHelper(getContext());
+        PreferenceHelper mPrefHelper = new PreferenceHelper(getContext());
+        String mLevelUser = mPrefHelper.getLevelUser();
 
-        String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        String mCompanyID;
+        if(mLevelUser.equals("4")){
+            mCompanyID = mPrefHelper.getGroup();
+        }else{
+            mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        }
         String mDivision = sharedPref.getString("division", "olmatix1");
 
-        //String mLevelUser = mPrefHelper.getLevelUser();
-
-        String url = Config.DOMAIN+"wamonitoring/get_log_alert.php";
+        String url;
+        if(mLevelUser.equals("4")){
+            // jika user nya group head, gambil log alert nya by group
+            url = Config.DOMAIN+"wamonitoring/get_log_alert_byGroup.php";
+        }else{
+            url = Config.DOMAIN+"wamonitoring/get_log_alert.php";
+        }
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
             try {
@@ -255,8 +265,6 @@ public class LogAlert extends android.support.v4.app.Fragment {
                         } else if (mDivision.equals(divID) || (division.equals("none"))||(division.equals(""))||(division.equals("null"))) {
                             tagList.add(tags);
                         }
-
-
                     }
                     mAdapter.notifyDataSetChanged();
 

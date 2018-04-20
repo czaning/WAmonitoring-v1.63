@@ -106,7 +106,7 @@ public class LogAbsenceDate extends android.support.v4.app.Fragment {
         mLevelUser = mPrefHelper.getLevelUser();
         mDivision = sharedPref.getString("division", "olmatix1");
 
-        if (!mLevelUser.equals("0")) {
+        if (!mLevelUser.equals("0") && !mLevelUser.equals("4")) {
             employee.setEnabled(false);
         }
 
@@ -206,9 +206,16 @@ public class LogAbsenceDate extends android.support.v4.app.Fragment {
     private void getData(String page, String times, String mDivision) {
         mSwipeRefreshLayout.setRefreshing(true);
 
-        String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        String mCompanyID;
+        String url;
 
-        String url = Config.DOMAIN + "wamonitoring/get_absen_date.php";
+        if(mLevelUser.equals("4")){
+            mCompanyID = new PreferenceHelper(getContext()).getGroup();
+            url = Config.DOMAIN + "wamonitoring/get_absen_date_byGroup.php";
+        }else{
+            mCompanyID = sharedPref.getString("company_id", "olmatix1");
+            url = Config.DOMAIN + "wamonitoring/get_absen_date.php";
+        }
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
             try {
@@ -383,11 +390,19 @@ public class LogAbsenceDate extends android.support.v4.app.Fragment {
             SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getContext());
             PreferenceHelper mPrefHelper = new PreferenceHelper(getContext());
 
-            String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+            String mCompanyID;
 
             RequestQueue MyRequestQueue = Volley.newRequestQueue(getContext());
 
-            String url = "https://olmatix.com/wamonitoring/get_division.php";
+            String url;
+            if(mLevelUser.equals("4")){
+                mCompanyID = mPrefHelper.getGroup();
+                url = "https://olmatix.com/wamonitoring/get_division_group.php";
+            }else{
+                mCompanyID = sharedPref.getString("company_id", "olmatix1");
+                url = "https://olmatix.com/wamonitoring/get_division.php";
+            }
+
             StringRequest MyStringRequest = new StringRequest(Request.Method.POST, url, response -> {
                 try {
                     mPrefHelper.setDivisionFull(String.valueOf(response));
@@ -396,7 +411,7 @@ public class LogAbsenceDate extends android.support.v4.app.Fragment {
                     String result_code = jObject.getString("success");
                     if (result_code.equals("1")) {
                         ArrayList<DivisionAndID> aName;
-                        if (mLevelUser.equals("0")) {
+                        if (mLevelUser.equals("0") || mLevelUser.equals("4")) {
                             String sDivision = mPrefHelper.getDivisionFull();
                             JSONObject jsonResponse1;
                             try {
@@ -414,6 +429,8 @@ public class LogAbsenceDate extends android.support.v4.app.Fragment {
                                 }
 
                                 ArrayAdapter<DivisionAndID> spinnerArrayAdapter = new ArrayAdapter<>(getContext(), R.layout.spinner_item_black, aName);
+
+                                Log.d("SPINNER",aName.toString());
                                 spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
                                 employee.setAdapter(spinnerArrayAdapter);
 

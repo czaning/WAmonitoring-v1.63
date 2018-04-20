@@ -347,13 +347,13 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
             // ...
         };
 
+        SharedPreferences.Editor editor = sharedPref.edit();
         switch (mLevelUser) {
             case "0":
                 navigationView.getMenu().clear(); //clear old inflated items.
                 navigationView.inflateMenu(R.menu.activity_main_drawer); //inflate new items.
                 username.setText(mUserName + "\nAdministrator");
                 mPrefHelper.setDivName("none");
-                SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putString("division","none");
                 editor.apply();
 
@@ -375,7 +375,10 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
                 navigationView.getMenu().clear(); //clear old inflated items.
                 navigationView.inflateMenu(R.menu.activity_main_drawer); //inflate new items.
                 username.setText(mUserName + "\nGroup Head " + mPrefHelper.getDivName());
-
+                // group head ga punya divisi karena dia diatas admin (perusahaan), struktur group head, admin, div head, staff
+                mPrefHelper.setDivName("none");
+                editor.putString("division","none");
+                editor.apply();
                 break;
         }
 
@@ -442,13 +445,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
 
                         if (type.equals("0") && position != 3) {
                             callSnackbar(message + " by " + user);
-
                         } else if (type.equals("1")) {
                             callSnackbar(message + " by " + user);
-
                         } else if (type.equals("2")) {
                             callSnackbar(message + " by " + user);
                         } else if (type.equals("4")) {
+                            // ini untuk apa ya ?
                             styleableToast = new StyleableToast
                                     .Builder(getBaseContext())
                                     .icon(R.drawable.ic_action_info)

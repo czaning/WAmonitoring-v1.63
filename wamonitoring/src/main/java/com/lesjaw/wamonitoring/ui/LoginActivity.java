@@ -179,11 +179,13 @@ public class LoginActivity extends AppCompatActivity {
                 String result_date_created = jObject.getString("date_created");
                 String result_phone1 = jObject.getString("phone1");
                 String result_phone2 = jObject.getString("phone2");
+                String log_status = jObject.getString("log_status");
                 String result_group = jObject.getString("group");
 
                 final PreferenceHelper mPrefHelper = new PreferenceHelper(getApplicationContext());
                 mPrefHelper.setLevelUser(result_level_user);
                 mPrefHelper.setDateCreated(Long.parseLong(result_date_created));
+                mPrefHelper.setLogin(log_status);
                 mPrefHelper.setGroup(result_group);
 
                 SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);

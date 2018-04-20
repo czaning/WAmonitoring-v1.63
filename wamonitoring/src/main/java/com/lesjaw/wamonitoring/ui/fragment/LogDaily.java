@@ -378,7 +378,7 @@ public class LogDaily extends android.support.v4.app.Fragment {
             if (mLevelUser.equals("0")) {
                 url = Config.DOMAIN + "wamonitoring/get_tags_record_data.php";
             } else if(mLevelUser.equals("4")) {
-                url = Config.DOMAIN + "wamonitoring/get_tags_record_data_byGroup.php";
+                url = Config.DOMAIN + "wamonitoring/get_tags_record_data_byGroup_List.php";
             } else {
                 url = Config.DOMAIN + "wamonitoring/get_tags_record_data_byDivision.php";
             }
@@ -387,6 +387,7 @@ public class LogDaily extends android.support.v4.app.Fragment {
         }
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
+            Log.d("RESPONSE TAG",response);
             JSONObject jsonResponse = null;
             try {
                 jsonResponse = new JSONObject(response);
@@ -455,12 +456,25 @@ public class LogDaily extends android.support.v4.app.Fragment {
     private void getData(String page) {
         mSwipeRefreshLayout.setRefreshing(true);
 
+        sharedPref = PreferenceManager.getDefaultSharedPreferences(getContext());
+        mPrefHelper = new PreferenceHelper(getContext());
+
+
         mLevelUser = mPrefHelper.getLevelUser();
+        String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        String mDivision;
+        if(mLevelUser.equals("4")){
+            mDivision = mPrefHelper.getGroup();
+        }else{
+            mDivision = sharedPref.getString("division", "olmatix1");
+        }
 
         String url;
         if (!requestViewByEmail) {
             if (mLevelUser.equals("0")) {
                 url = Config.DOMAIN + "wamonitoring/get_tags_record_data.php";
+            } else if(mLevelUser.equals("4")) {
+                url = Config.DOMAIN + "wamonitoring/get_tags_record_data_byGroup_List.php";
             } else {
                 url = Config.DOMAIN + "wamonitoring/get_tags_record_data_byDivision.php";
             }
@@ -470,6 +484,7 @@ public class LogDaily extends android.support.v4.app.Fragment {
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
             JSONObject jsonResponse = null;
+            Log.d("RESPONSE TAG",response);
             try {
                 jsonResponse = new JSONObject(response);
 

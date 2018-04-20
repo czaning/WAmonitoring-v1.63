@@ -28,6 +28,7 @@ import com.lesjaw.wamonitoring.adapter.AbsenAdapter;
 import com.lesjaw.wamonitoring.model.AbsenceModel;
 import com.lesjaw.wamonitoring.utils.Config;
 import com.lesjaw.wamonitoring.utils.EndlessRecyclerViewScrollListener;
+import com.lesjaw.wamonitoring.utils.PreferenceHelper;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -135,10 +136,19 @@ public class LogAbsence extends android.support.v4.app.Fragment {
         sharedPref = PreferenceManager.getDefaultSharedPreferences(getContext());
         //mLevelUser = mPrefHelper.getLevelUser();
 
-        String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        String mCompanyID;
         String mDivision = sharedPref.getString("division", "olmatix1");
 
-        String url = Config.DOMAIN+"wamonitoring/get_absen_in.php";
+        PreferenceHelper mPrefHelper = new PreferenceHelper(getContext());
+        String mLevelUser = mPrefHelper.getLevelUser();
+        String url;
+        if(mLevelUser.equals("4")){
+            mCompanyID = mPrefHelper.getGroup();
+            url = Config.DOMAIN+"wamonitoring/get_absen_in_group.php";
+        }else{
+            mCompanyID = sharedPref.getString("company_id", "olmatix1");
+            url = Config.DOMAIN+"wamonitoring/get_absen_in.php";
+        }
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
             try {

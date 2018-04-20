@@ -133,7 +133,7 @@ public class ListEmployeeActivity extends AppCompatActivity {
         sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
         String mCompanyID = sharedPref.getString("company_id", "olmatix1");
         String mDivision;
-        if(mLevelUser!="4"){
+        if(!mLevelUser.equals("4")){
             mDivision = sharedPref.getString("division", "olmatix1");
         }else{
             final PreferenceHelper mPrefHelper = new PreferenceHelper(getApplicationContext());

@@ -180,20 +180,25 @@ public class TrackEmployeeActivity extends FragmentActivity implements OnMapRead
                 pDialog.cancel();
             }
         }
-
     }
 
     private void getData() {
 
         sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
-        String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        String mCompanyID;
         String mDivision = sharedPref.getString("division", "olmatix1");
 
         String url;
-        if (mLevelUser.equals("0")){
-            url = Config.DOMAIN+"wamonitoring/get_employee.php";
+        if (mLevelUser.equals("0")) {
+            mCompanyID= sharedPref.getString("company_id", "olmatix1");
+            url = "https://olmatix.com/wamonitoring/get_employee.php";
+        } else if(mLevelUser.equals("4")){
+            // kalau level user 4 kirim group id nya
+            mCompanyID = mPrefHelper.getGroup();
+            url = "https://olmatix.com/wamonitoring/get_employee_by_group_spinner.php";
         } else {
-            url = Config.DOMAIN+"wamonitoring/get_employee_by_division_spinner.php";
+            mCompanyID = sharedPref.getString("company_id", "olmatix1");
+            url = "https://olmatix.com/wamonitoring/get_employee_by_division_spinner.php";
         }
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
@@ -255,7 +260,12 @@ public class TrackEmployeeActivity extends FragmentActivity implements OnMapRead
         mMap = googleMap;
         Log.d(TAG, "onMapReady: "+refresh);
         sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
-        String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        String mCompanyID;
+        if(mLevelUser.equals("4")){
+            mCompanyID = mPrefHelper.getGroup();
+        }else{
+            mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        }
         String mDivision = sharedPref.getString("division", "olmatix1");
 
         Log.d(TAG, "onMapReady: "+refresh);
@@ -265,7 +275,9 @@ public class TrackEmployeeActivity extends FragmentActivity implements OnMapRead
         if (refresh==0) {
             if (mLevelUser.equals("0")) {
                 url = Config.DOMAIN+"wamonitoring/get_employee_location_last_all.php";
-            } else {
+            } else if (mLevelUser.equals("4")) {
+                url = Config.DOMAIN+"wamonitoring/get_employee_location_last_all_byGroup.php";
+            } else{
                 url = Config.DOMAIN+"wamonitoring/get_employee_location_last_all_byDivision.php";
             }
         } else  if (refresh==1) {

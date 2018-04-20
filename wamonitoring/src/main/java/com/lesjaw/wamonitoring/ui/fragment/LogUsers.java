@@ -168,7 +168,9 @@ public class LogUsers extends android.support.v4.app.Fragment {
         mRecycleView.setVisibility(View.GONE);
         mRecycleViewData.setVisibility(View.GONE);
 
+        // spinner
         getEmployee();
+        //
         getDataEmployee(mEmail);
         getData(mEmail, times);
         getDataLastTag("0");
@@ -624,13 +626,15 @@ public class LogUsers extends android.support.v4.app.Fragment {
 
         String mCompanyID = sharedPref.getString("company_id", "olmatix1");
         String mDivision = sharedPref.getString("division", "olmatix1");
+        String mGroup = mPrefHelper.getGroup();
 
         String url;
         if (mLevelUser.equals("0")) {
             url = Config.DOMAIN + "wamonitoring/get_tags_record_count.php";
-        } else  {
+        } else if (mLevelUser.equals("4")) {
+            url = Config.DOMAIN + "wamonitoring/get_tags_record_count_byGroup.php";
+        } else {
             url = Config.DOMAIN + "wamonitoring/get_tags_record_count_byDiv.php";
-
         }
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
@@ -684,8 +688,12 @@ public class LogUsers extends android.support.v4.app.Fragment {
         }, error -> Log.d("DEBUG", "onErrorResponse: " + error)) {
             protected Map<String, String> getParams() {
                 Map<String, String> MyData = new HashMap<>();
-                MyData.put("company_id", mCompanyID);
-                MyData.put("division", mDivision);
+                if(mLevelUser.equals("4")){
+                    MyData.put("group", mGroup);
+                }else{
+                    MyData.put("company_id", mCompanyID);
+                    MyData.put("division", mDivision);
+                }
                 MyData.put("offsett", page);
 
 
@@ -705,7 +713,13 @@ public class LogUsers extends android.support.v4.app.Fragment {
 
     private void getEmployee() {
 
-        String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        String mCompanyID;
+        if(mLevelUser.equals("4")){
+            mCompanyID = mPrefHelper.getGroup();
+        }else{
+            mCompanyID= sharedPref.getString("company_id", "olmatix1");
+        }
+
         String mDivision = sharedPref.getString("division", "olmatix1");
 
         RequestQueue MyRequestQueue = Volley.newRequestQueue(getContext());
@@ -713,12 +727,14 @@ public class LogUsers extends android.support.v4.app.Fragment {
         if (mLevelUser.equals("0")) {
             url = "https://olmatix.com/wamonitoring/get_employee.php";
         } else if(mLevelUser.equals("4")){
+            // kalau level user 4 kirim group id nya
             url = "https://olmatix.com/wamonitoring/get_employee_by_group_spinner.php";
         } else {
             url = "https://olmatix.com/wamonitoring/get_employee_by_division_spinner.php";
         }
 
         StringRequest MyStringRequest = new StringRequest(Request.Method.POST, url, response -> {
+
             JSONObject jsonResponse = null;
             try {
                 jsonResponse = new JSONObject(response);

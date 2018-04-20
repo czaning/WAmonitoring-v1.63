@@ -206,6 +206,9 @@ public class SplashActivity extends AppCompatActivity {
                         }
 
                         case "4": {
+
+                            new GetDivision().execute();
+
                             Intent i1 = new Intent(SplashActivity.this, MainActivity.class);
                             startActivity(i1);
                             finish();
@@ -282,18 +285,24 @@ public class SplashActivity extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... arg0) {
-            String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+            String mCompanyID;
 
             RequestQueue MyRequestQueue = Volley.newRequestQueue(getBaseContext());
-
-            String url = "https://olmatix.com/wamonitoring/get_division.php";
+            String url;
+            if(mPrefHelper.getLevelUser().equals("4")){
+                mCompanyID = mPrefHelper.getGroup();
+                url = "https://olmatix.com/wamonitoring/get_division_group.php";
+            }else{
+                mCompanyID = sharedPref.getString("company_id", "olmatix1");
+                url = "https://olmatix.com/wamonitoring/get_division.php";
+            }
             StringRequest MyStringRequest = new StringRequest(Request.Method.POST, url, response -> {
                 allNames = new ArrayList<>();
                 JSONObject jsonResponse = null;
                 try {
                     jsonResponse = new JSONObject(response);
                     mPrefHelper.setDivisionFull(String.valueOf(response));
-
+                    Log.d("DIVISION FULL GROUP",response);
                     JSONObject jObject = new JSONObject(response);
                     String result_code = jObject.getString("success");
                     if (result_code.equals("1")) {

@@ -128,6 +128,7 @@ public class LogByTag extends android.support.v4.app.Fragment {
         times = mTgl.getText().toString();
 
         mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        Log.d("COMPANY_ID",mCompanyID);
 
         mLevelUser = mPrefHelper.getLevelUser();
         if (!mLevelUser.equals("0")){
@@ -222,7 +223,7 @@ public class LogByTag extends android.support.v4.app.Fragment {
         sectionAdapter.removeAllSections();
         List<tagsDailyModel> tagList1 = new ArrayList<>();
 
-        if (mLevelUser.equals("0")) {
+        if (mLevelUser.equals("0") || mLevelUser.equals("4") ) {
             employee.setEnabled(false);
 
             String sDivision = mPrefHelper.getDivisionFull();
@@ -241,7 +242,12 @@ public class LogByTag extends android.support.v4.app.Fragment {
                     String cid = div_name.getString("cid");
                     aName.add(new DivisionAndID(name, cid));
 
-                    String url = Config.DOMAIN+"wamonitoring/get_tags_record_data_byType.php";
+                    String url;
+                    if(mLevelUser.equals("0")){
+                        url  = Config.DOMAIN+"wamonitorinmg/get_tags_record_data_byType.php";
+                    }else{
+                        url  = Config.DOMAIN+"wamonitoring/get_tags_record_data_byGroup.php";
+                    }
                     StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
                         JSONObject jsonResponse = null;
                         try {
@@ -294,21 +300,22 @@ public class LogByTag extends android.support.v4.app.Fragment {
                             e.printStackTrace();
 
                         }
-
                     }, error -> Log.d("DEBUG", "onErrorResponse: " + error)) {
                         protected Map<String, String> getParams() {
                             Map<String, String> MyData = new HashMap<>();
-                            MyData.put("company_id", mCompanyID);
-                            MyData.put("division_name", cid);
+                            if(mLevelUser.equals("4")){
+                                MyData.put("company_id", mPrefHelper.getGroup());
+                            }else{
+                                MyData.put("company_id", mCompanyID);
+                                MyData.put("division_name", cid);
+                            }
                             MyData.put("tgl", times);
-
                             return MyData;
                         }
                     };
 
                     // Adding request to request queue
                     NetworkRequest.getInstance(getContext()).addToRequestQueue(jsonObjReq);
-
                     sectionAdapter.addSection(new TagListSection(String.valueOf(name), cid, tagList1, mContext));
                     sectionHeader.setAdapter(sectionAdapter);
 
@@ -403,7 +410,12 @@ public class LogByTag extends android.support.v4.app.Fragment {
 
         //String tag_json_obj = "getDatabyFilter";
 
-        String url = Config.DOMAIN+"wamonitoring/get_tags_record_data_byType.php";
+        String url;
+        if(mLevelUser.equals("4")){
+            url = Config.DOMAIN+"wamonitoring/get_tags_record_data_byGroup.php";
+        }else{
+            url = Config.DOMAIN+"wamonitoring/get_tags_record_data_byType.php";
+        }
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
             JSONObject jsonResponse = null;
@@ -454,8 +466,12 @@ public class LogByTag extends android.support.v4.app.Fragment {
         }, error -> Log.d("DEBUG", "onErrorResponse: " + error)) {
             protected Map<String, String> getParams() {
                 Map<String, String> MyData = new HashMap<>();
-                MyData.put("company_id", mCompanyID);
-                MyData.put("division_name", div);
+                if(mLevelUser.equals("4")){
+                    MyData.put("company_id", mPrefHelper.getGroup());
+                }else{
+                    MyData.put("company_id", mCompanyID);
+                    MyData.put("division_name", div);
+                }
                 MyData.put("tgl", time);
 
                 return MyData;
@@ -488,7 +504,13 @@ public class LogByTag extends android.support.v4.app.Fragment {
 
                 List<tagsDailyModel> tagList1 = new ArrayList<>();
 
-                String url = Config.DOMAIN+"wamonitoring/get_tags_record_data_byType.php";
+                String url;
+
+                if(mLevelUser.equals("4")){
+                    url = Config.DOMAIN+"wamonitoring/get_tags_record_data_byGroup.php";
+                }else{
+                    url = Config.DOMAIN+"wamonitoring/get_tags_record_data_byType.php";
+                }
                 StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
                     JSONObject jsonResponse = null;
                     try {
@@ -544,8 +566,12 @@ public class LogByTag extends android.support.v4.app.Fragment {
                 }, error -> Log.d("DEBUG", "onErrorResponse: " + error)) {
                     protected Map<String, String> getParams() {
                         Map<String, String> MyData = new HashMap<>();
-                        MyData.put("company_id", mCompanyID);
-                        MyData.put("division_name", cid);
+                        if(mLevelUser.equals("4")){
+                            MyData.put("company_id", mPrefHelper.getGroup());
+                        }else{
+                            MyData.put("company_id", mCompanyID);
+                            MyData.put("division_name", cid);
+                        }
                         MyData.put("tgl", time);
 
                         return MyData;
@@ -625,6 +651,7 @@ public class LogByTag extends android.support.v4.app.Fragment {
             JSONObject jsonResponse = null;
             try {
                 jsonResponse = new JSONObject(response);
+                Log.d("CHECKLIST_DATA",response);
 
                 JSONObject jObject = new JSONObject(response);
                 String result_code = jObject.getString("success");
@@ -742,7 +769,6 @@ public class LogByTag extends android.support.v4.app.Fragment {
             this.divID = divID;
             this.list = list;
             this.mContext = mContext;
-
         }
 
         @Override
@@ -928,7 +954,13 @@ public class LogByTag extends android.support.v4.app.Fragment {
             FooterViewHolder footerHolder = (FooterViewHolder) holder;
 
             //Log.d(TAG, "onBindFooterViewHolder: RUNNING");
-            String url = Config.DOMAIN+"wamonitoring/get_tags_data_all_by_name.php";
+            String url;
+            if(mLevelUser.equals("4")){
+                mCompanyID = mPrefHelper.getGroup();
+                url = Config.DOMAIN+"wamonitoring/get_tags_data_all_by_group.php";
+            }else{
+                url = Config.DOMAIN+"wamonitoring/get_tags_data_all_by_name.php";
+            }
 
             StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
                 JSONObject jsonResponse = null;
@@ -968,6 +1000,7 @@ public class LogByTag extends android.support.v4.app.Fragment {
                 protected Map<String, String> getParams() {
                     Map<String, String> MyData = new HashMap<>();
                     MyData.put("company_id", mCompanyID);
+                    Log.d("DIVNAME",divID);
                     MyData.put("divname", divID);
                     return MyData;
                 }

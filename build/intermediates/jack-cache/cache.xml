@@ -2,466 +2,466 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\8df67a247fdae56d25b731381da8b65ad56c4c4e\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="8a572a0bd9ea324b099b1761670237bc1be8ba7b">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3ab7860dc97dfbea7a247b9a5e48c0cdd67c8e2c.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\7caedf4bcde948fdf3634b1ed9e6cd826240e4a2\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-718f87c68ef4e585a550e35ee56d845b56dd5dc4.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\93fd03fdb9e391a36c5df274299cb212eb7337f0\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-cbf1d73f8758018a1c5796178218d63c24623a1d.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\b432057c64f3fbced02261aaef5f61ed0960b07f\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="a7a0aa678c3bbadb67fb41df9e107f7ee9087902">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-349abc2ef394d89bca421047e5a98742a6912f2f.jar" />
-    </item>
-    <item
-        jar="C:\Android\sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
-        revision="25.0.3"
-        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-cc164817adc6b2a50c9068cf93104c3c3c5e4cf8.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        revision="25.0.3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\picasso-2.5.2-2f6421a187fe1a81ed1f5a839436b4e57cebc39c.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\81fce25afca44803384574b9c5143b9a8a814dfa\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.android\build-cache\60a4a054c52091dd8ffde3299a44e51dd20d712f\output\jars\classes.jar"
         revision="25.0.3"
         sha1="e3a3d62fab67ccb83f386a4c092bfb5747ea15a7">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c28bf553d6e80fa79be7325a443161a8c2ef7b63.jar" />
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e04151c88c86c9d9b41f3c2b73e19b45f9fab6d0.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\83f79f839296a60345fdf15c7a1a02fdccbc320c\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ca05dcfb473df8ae99952b8f04246a3c78b4fa28.jar" />
-    </item>
-    <item
-        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        revision="25.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-dce0f5dc4ec87302d879250c45fe5f3f72f02917.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\f6ccfd23437bcee61553cb754e0a3de46c07bacb\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="5bd38c72db0a3b4140d38b7fb527e78e46126d79">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7836944da03ff84c22c8afb769b64a93b26896ed.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\86d94ae3e7a6e038c2d23abe2e4710b49c4b65ff\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6696f32b56897ef94e17f92d373f17228c04eb99.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\ab02e733d857d6d36d2b8a723d0225e9229ddf62\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="b77e50b3c31d0fc64148530f7077f79ec114b5b9">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2cc21972bf659c5cd4202d904c9a119894e798b4.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\6010c8ac00b981ed24348f2a6cb85766e8ceb84e\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e415842247b4b2ddfbec4f6421830e930c0a5379.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\814ef00226824f66e223dd55c8d6273b520ff326\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="54511008bf7d1aabd871d8d3a26781b3f2bd9617">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c8720eb0e8e1375affbd7ff05b7de97ddf368945.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        revision="25.0.3"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\okio-1.6.0-5cee4e9a5c8a604705a7b88ce20583e6dc449902.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\5dc410944f4d227dda0444dc1793857406474336\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-53239083c26c9db0ad2f0ca0b27ed696a903a5fd.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\4d100d4a4bb70a3bc53584b5108ccd950e8b73af\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-575125038bb289b002581bd74c468484dfc92bfd.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
-        revision="25.0.3"
-        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\tubesock-0.0.12-9cf3e97e70c3f5bd6468b1e6a022dd64af8026ad.jar" />
-    </item>
-    <item
-        jar="C:\Android\sdk\platforms\android-25\android.jar"
-        revision="25.0.3"
-        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-a9e9d65ba94e9ff3262c52a30ec90dfc4e46abeb.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\d43449e72982f6c698ee16cf5165b89609819dc0\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8fc40a233aafdf86e3ee7939ea7ea39a96c2d071.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
-        revision="25.0.3"
-        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\firebase-client-jvm-2.5.2-15871cee366f2eb86edb7991d51f5bed08f4bdf1.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\eca1ad9baa202d99ce71a6456d079543e63df49b\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="d94940ddde71cc57402c78b7d8c335d61958f486">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-36c82ed26090fe44504fd7a88f950c7739f92061.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\050503dbb050c6eb70330b9c1df5017220235d51\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="61c36e7f672882c495c30499b04ff03169dbb416">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0dcae943651c3f6fd4175759aff81ad38878efe2.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
-        revision="25.0.3"
-        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.4.0-770ea5c877d988a80910e56e08eeecc80b3a02f5.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\0bab3ef03c6a4df28290cad9d2a18703ce680303\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="c879101226d1b2aaf6edae3d7491de6fd56d2659">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-083ae6a24e569c18233cd85abbb61e57531a5492.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\239408592b4d973785943192ae6d99216deb5e45\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-18dc0f850d6a0c10563b3211ee5831cdf761e709.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\a97ad36ab3ba407ea926af9d4561c9ebcbb2a287\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="ecbc8e86377f02e195e715528d2263fed4f2a3ed">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-190606ba45e8c4d53ce4f7eceb3e1b23b8874bf1.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\9eb674733a876f878a4eb5a3dda47a133638df2c\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="6bd32b72098fecf44dcab3808a11e6b9fcb86b7b">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-69f125f7c1a07ccc264bf642eeff5bdfa2be36a3.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\53bff527eaf64093c8ebe87c4d9e5774c603259b\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="804d5ac4a043ce845ffe58c8913feb793d3a568b">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e59190437f955721f9b8bece3d9a08e3816640a2.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\a6585b5518d0daf3873b67cae4b758c330aa7a36\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="12c08de304868c9e5e5f47925c4615743059de61">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9a84542148ca39dc6d95dd67e3c6c043d3e2ecae.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\9625f8fe05bbb045ce7e7fdf3c611080b1c72a49\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="d4ba7399a1a4f5c998b5ce4f6bf33a2e8347820c">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-381b64bbb79b0f9cec30af542445201cab79d05b.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\ef1230a4380c1fadf4a9e774e45007f1f3b3c9fa\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-f408f103d936179ee3c794a20097efa268ff251e.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\671bb3361edd80db2af300004852540e84289168\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8b94aabe8ca0bac6556f3b6faf8c698a00a88c0e.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\c083b2d0abef3765a349b53a41814f4384162180\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="6105e39e3a5a630a2bd137f53de09b35a6be43d6">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-cfcfe789bf8c50487cdeb3802cde9a54b9d61db8.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.1\98e484e67f913e934559f7f55f0c94be5593f03c\kotlin-stdlib-1.1.1.jar"
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.1\98e484e67f913e934559f7f55f0c94be5593f03c\kotlin-stdlib-1.1.1.jar"
         revision="25.0.3"
         sha1="98e484e67f913e934559f7f55f0c94be5593f03c">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\kotlin-stdlib-1.1.1-fb16b98e007e8a8cc9085ec4275ca2b3274c621c.jar" />
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\kotlin-stdlib-1.1.1-0d4d12d4264b06c8bfe82fd24fcdff2b18894faf.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\3afeba788b53533b407946602df195559d05633f\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.android\build-cache\2d04e88fc97c9c3b7bf9b2259d45678eeed246b3\output\jars\classes.jar"
         revision="25.0.3"
-        sha1="e0891a69f24747a6988698a57fd55825b31251fa">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b543888dc927c04ae6712899664d36974ca99188.jar" />
+        sha1="12c08de304868c9e5e5f47925c4615743059de61">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0f1439d2d1d91624ebe479d4334df99b4b107081.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\95194927884c20faad2f3f01ec80226117e205bb\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.android\build-cache\af73a7233c94292460e8af6cd9f151f967aeaa16\output\jars\classes.jar"
         revision="25.0.3"
-        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-925f18f27866bc83f8028e4595179c6f8f01aa07.jar" />
+        sha1="90095b555b72205db6f9b93aca3cb9978d1e3344">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-18823b91e9e0eafeab7d7566b3e4735a60c98173.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\4ccb288e0a4ae2cc5cd91139f24fd6b13f6135d3\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="05e8375b2ec26e4508b2a745d5a0623ba95f9b49">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-01a9c6bff5435984f114774c36a14d8530d6cef5.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
-        revision="25.0.3"
-        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-databind-2.2.2-0956972096b8cc9b4464f7c5abed1da87a2ce280.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.8.0\9bada650e1afe9c6174ddc0d113c1fce4dc26fe0\glide-3.8.0.jar"
-        revision="25.0.3"
-        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\glide-3.8.0-db0706ef118ec0e8fad7e8212c9ccbc05042c54e.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\abdc6e815a4ad5dc262d1145364625f34fd71e51\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="cb3cf97748344da6fad1deb830c7c479a7c53645">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-07b1d046cb8127df06c969cd6c21725c323e548b.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\212a476ec49aec89ef9279a7462c9fc3a0330419\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="e49277142d9d1ef0b7635d9f2af54426d2d12f46">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c512e8079121f6b1eb9e7deeaff13d4a4c7cc02f.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.7\69d90fd7fb70e54746e26c10454c220e40a775ce\otto-1.3.7.jar"
-        revision="25.0.3"
-        sha1="69d90fd7fb70e54746e26c10454c220e40a775ce">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\otto-1.3.7-6426f71bb13e81f646f5f4ef66905b7956695d46.jar" />
-    </item>
-    <item
-        jar="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\libs\itext5-itextpdf-5.5.12.jar"
-        revision="25.0.3"
-        sha1="319e58e4c84e0b8f8aa1a2255510453490883635">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\itext5-itextpdf-5.5.12-00e0bef9eba304ab59453e80b648061c53b35ee0.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\a6ab8722a8b0120604ea6f55f524f8409feeffb1\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="b7c43c8ddfc4ae2091a33f2882927bb4e3e2fee2">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-caa8d1a32615ba8dff1a3bc9484268fa01ba58d6.jar" />
-    </item>
-    <item
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.3\gson-2.3.jar"
-        revision="25.0.3"
-        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gson-2.3-c474ccbe88d0700476e306916dbac480ac7521ef.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
-        revision="25.0.3"
-        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-annotations-2.2.2-13b35820ba6b36526118e733941eb98a604a694b.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\10d13bdf517c29809b87bc43d169ff92ada7cf3c\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-76e1173ba9a3f0847e1bcc188ae759051533f687.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.1.1\e3be78b463658ae5a8c8b446b811671998c91f5\kotlin-stdlib-jre7-1.1.1.jar"
-        revision="25.0.3"
-        sha1="0e3be78b463658ae5a8c8b446b811671998c91f5">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\kotlin-stdlib-jre7-1.1.1-6de2760c0d960b3b5a492173e7502cd6d808d664.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
-        revision="25.0.3"
-        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\core-3.3.0-f4a4193f27b8e79de24a235cdf1439f27ba64855.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\97fe58423d8330742b3f97df221a7f419942fd69\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="4961be1437163ab598620a3c907c0f3432936f51">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3c037b6daa5072f818c3f058eb8754120f1c2fdd.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\b43058f3144ab0b494d3cae08e359f8afd166169\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="8caaa885c5f74a2555333b2f770b56c1a8d9aa87">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-44e5519449a2d1f2e92664fc8217174e1eb27bf1.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
         revision="25.0.3"
         sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\okhttp-2.5.0-6b8e8798c259eabe5d8e9553ac05b50e4f63fcce.jar" />
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\okhttp-2.5.0-aa8baa05aec5e14ad55a5739f41e66a0577f907f.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\413ff2bfefde2488ef587f24d462acadb4f4df21\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7eb14dbae43ef8d508f7430c0f1652dd4c0185a1.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\594d39b8f178424cfa74a961f95af737e8bc2bbf\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="b20dc61a3102ba44dfa7c9e8ad97beebbafa918e">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-809ae8ca7ae81828e68717894c94f1fc09b565df.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\6d51bc4fe9d51900fce9673fe1384f20654907d0\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="414c5172d9739a35339700d133288418059e7d83">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7ee657135b73c0b19596d613e6d8b736c3a3b202.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\fab1b9663200b8fb72be1a1440e92f0a357e5c81\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="f200454bd6851899efe021d2a4673959986edaed">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4656b24bf6184f5c06801adbe9cb49307434b0f4.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
-        revision="25.0.3"
-        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-core-2.2.2-3bb8c6f75b79b6489a760fc8210c60834ec62ebc.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\2b7e24d946032c18c8466642d0fc65adbf9bbae1\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="3013ffee567202ddab82286ac45b28fcb1e7926a">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d6a446bb905938a6bd0bca224c27020392993013.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        revision="25.0.3"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\library-2.4.0-baf78d6c5d7d751015fe2315914be14a96ccc0c6.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\de345ac538ac14167355264769b9acf26ffd02fd\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="183fcbfcca75b095b63125f5e31ebd8b5f5f3216">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d3c68cc6ec39799797ea2be825f15d2cf980137e.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\344704452bce18c8a55ddb7d67502480f65d5484\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="32054268e6c9fdff0c9c5deafafd0bd105120fb6">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2152760a87f85b590a687b43e05aef70b5fd819a.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\bbb917cd4b9a0b20325d755e364acdca01e6d6ea\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a53bd78085b98cdabbb6d81ccc82c524c87ff22f.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\128ef922e641d9aa5efccf732e8c17304c1182d0\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="ec1f195979cc7f1ec94779fa16f1b10aac8aceca">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9539bf885d6960430e7aba2f01cfcd56db7735c7.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
-        revision="25.0.3"
-        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\firebase-client-android-2.5.2-0651af0752abce7b0ac5f6837e831c1d522853c2.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\43631e0f7c9e469d244e4dda550343df1befbf45\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="4b70c5ad05857b8b3b2458777e1b489a96d82f05">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8d7e140807eb7346855207b2a4b58eed795aa03d.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\1c35811327496132d21822b8e0360d48a39b9821\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="0772eec11be9e3803736882ae4bec4078986910e">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-217125c1441ec44b089259fb6a47bda2793c402e.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\1e7ec99bd902904077b109a40c031b0ea13a1298\output\jars\classes.jar"
-        revision="25.0.3"
-        sha1="1be1e13ff67a66921003e6d52a058d04fb048278">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b451a3d7716ebe811cfe636f379b2932933e6891.jar" />
-    </item>
-    <item
-        jar="C:\Users\ACER V5\.android\build-cache\cbb372328fee3a3d24bbf70addad91717924d810\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.android\build-cache\a152365dea29b6a81d7434fa51d21c84279ceb67\output\jars\classes.jar"
         revision="25.0.3"
         sha1="d4acacbab67243d9eb026ea759aefd401d070f3e">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-5bb141c84317508faecba0b4253214c947db75f7.jar" />
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fecf5956418f8fba1cd8f6ed462c20f1db461ff8.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\c7fa6a856c8a8555a05577ecd4f375270ade34f7\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
         revision="25.0.3"
-        sha1="b4fa53b1dbc43a65e9cbcbfe25f4abc47264e78c">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-37c2d8085b3b807aa43934e2f18f357e640bf150.jar" />
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\okio-1.6.0-4b1d80c5d16b669e664ef8450e29e966952aa054.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\0a0723c2c02de433de15fc3d6abfc51e6e0e04b8\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.android\build-cache\4a4df3aa12bbac9b83a02fb324cc30ab9e401b2d\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="05e8375b2ec26e4508b2a745d5a0623ba95f9b49">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-184f2acf474b3137c1af5c4ff26f833378297df1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\9e30e5affef2f8023b183b646533690c7c8fb745\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="b7c43c8ddfc4ae2091a33f2882927bb4e3e2fee2">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c9cc61a39c6f691e804cedc6ee3bda7f4dc0bfad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\81c4be37a7519ea71c699e6be0b5e59a0ebe72c9\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3ff5770b488291f5a49f8660b829beae9ba98f19.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\93d3889dbb3717ea2efeb04c4c209a39c6b7b58d\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="414c5172d9739a35339700d133288418059e7d83">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-bc4e1db714c5809f69e6d03128255664ce00f4b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\5f70a66e4887e5666eab016c8bd6aaf357f732f9\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="ec1f195979cc7f1ec94779fa16f1b10aac8aceca">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-22a88943861028cb78dd98eac62dec5aa5b3d858.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\50072e33705ab8155369ad5c8df90ed3ecffdbf1\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-39b4f6f9707a643cb1eb29a576357d80c0fec682.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\a31a82be4846b52ee1db45ce0cccb3ca37435c28\output\jars\classes.jar"
         revision="25.0.3"
         sha1="0b723383fcc5c9e6d233f12cf3670c153dcb9f72">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2fb46b4f3e45ddd5a7ba95054557b9ba4ffd39fb.jar" />
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-5d9ef42471d4626901586dd1bb5dff6dde4d2d6e.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\07cbc9deb89dce2d82dbbb88839debca6e5a5a1b\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
         revision="25.0.3"
-        sha1="40a6b8f05124eb9e6012e18b80a6dbd13440e283">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-dc9a94d903113324fc6735f2979eed262797833f.jar" />
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-annotations-2.2.2-ed976619be0481fbb6e9f373a2752682d01f93c1.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\d28fa5ecb8fc441eeeada828c85d96297ed055de\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\AppData\Local\Android\Sdk\platforms\android-25\android.jar"
         revision="25.0.3"
-        sha1="e00b71dcf2fbecaf59b0d487d11839522dd7863d">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-73c75bdcdedb0172c6e5c310ac46787f3f1ccbda.jar" />
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-03d8e1ff1b37ba944b15fc18fe16314ecf1eb202.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\f49415bc0ff94ed7f2b469da4f1708662bac4001\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.android\build-cache\082d9b1073f01f9fa445800f0b897f294bc1871b\output\jars\classes.jar"
         revision="25.0.3"
-        sha1="48245e6caf8ed735289764ce077e2557da04876e">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-15e5d27b37035e6b94628aa0ccc3839f85cd2f43.jar" />
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6e1623ac1d38fb6892b778a2c8df79230d96043b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\8e74212ebdeefcf395f8a8ec512e08d331d61d05\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-3cd1c330d9e9030a18e145581f136af770e51190.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        revision="25.0.3"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\tubesock-0.0.12-8303e8615783686061c67fdb57c7bc27e7935834.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        revision="25.0.3"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-core-2.2.2-2087fb75f13ff84815dc43032e956d0b67a9768b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\fc0b74500603baac17148715db33d149bfc74fa5\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-dfbaa04c4d0e13d637f4e6cb83eaa30466bd9155.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\00e22f8266c4fbff7ed8bd6df5f58ffa2fd64e0f\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="cb3cf97748344da6fad1deb830c7c479a7c53645">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a838574a7d5c57a04c5d7e65bde44e9bf9dd79e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\AppData\Local\Android\Sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+        revision="25.0.3"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-f7aaeba3de0ac7870fb13a1ac26bdd93ebd7d3a4.jar" />
     </item>
     <item
         jar="C:\Program Files\Android\Android Studio\gradle\m2repository\org\jetbrains\annotations\13.0\annotations-13.0.jar"
         revision="25.0.3"
         sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\annotations-13.0-1a1ecf57ad78f2133cd33f7be09f61b9db498cc9.jar" />
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\annotations-13.0-1a1ecf57ad78f2133cd33f7be09f61b9db498cc9.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\68385c5f09e33e7eb7ce4cf7ad3d416c841baafc\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\.android\build-cache\4a2b656512754cdfa6bfc456ead4770a79097fb2\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="b20dc61a3102ba44dfa7c9e8ad97beebbafa918e">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-562a40175ff5d1c0254bea8ebe03f9fb379d5f65.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\c1f73dd184388af845b5d14314998ad4a50d85ea\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="ecbc8e86377f02e195e715528d2263fed4f2a3ed">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-5381ce64d745c1fa756c7cb2e6b88f91f2c9ac72.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\daf6534439b3e1af1eedd22a531c7d19d0d573d2\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="4b70c5ad05857b8b3b2458777e1b489a96d82f05">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c9f82996d6332f94979da7efe634493cb1c70804.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\picasso-2.5.2-f4af7e2e2199975e7d2f2b8429d2fdcd5b58f87e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\72fd45e7e03278259c88480b00b211b388d0ae4e\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="0772eec11be9e3803736882ae4bec4078986910e">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c54067d3d97bae7cbf6cd98319b6f091876ed716.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.1.1\e3be78b463658ae5a8c8b446b811671998c91f5\kotlin-stdlib-jre7-1.1.1.jar"
+        revision="25.0.3"
+        sha1="0e3be78b463658ae5a8c8b446b811671998c91f5">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\kotlin-stdlib-jre7-1.1.1-c36dadebeb6db42df27b5960ede6050321be1981.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\620b99e982c31e0ef65e0e6f722754c0a37fb8d0\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="8caaa885c5f74a2555333b2f770b56c1a8d9aa87">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c932c74af6f6f9618690cc6234b511fa15f3cbbf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\5bfad1ace9fb1c747e72708de1f16b1ba60b9301\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="3013ffee567202ddab82286ac45b28fcb1e7926a">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fb40857669ea358dbe80ebb33b3f8537bd893dc3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        revision="25.0.3"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\core-3.3.0-b5132120f252f0065c339b2f92b5412d08c3e0be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\c3c7d8aa414d174897d08b8d82a2ad28e8efacce\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="61c36e7f672882c495c30499b04ff03169dbb416">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fbfd0ace6e91fdc07e2870fc776c534cb958ee98.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\21759f0761fdfede62a251fa226121f341d5148a\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="8a572a0bd9ea324b099b1761670237bc1be8ba7b">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c7aa28796a2cf8d6167261f6b5fba1dad02c1d99.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\77e3ceeb319b9efb38d3977e1a5435eb086dd7d0\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="54511008bf7d1aabd871d8d3a26781b3f2bd9617">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-761f78561b6e8d6b529a6fe4814344846fddc35b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\ac848845b56e5156b2cd6ea605b899b3e060c6e6\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="d94940ddde71cc57402c78b7d8c335d61958f486">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-dbb6a8039695d6a7e59b2a2eac2a687ed1480b77.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\33798be0efe572c7d7caddbd73f6e0f472155acc\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="48245e6caf8ed735289764ce077e2557da04876e">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-72ea795288f4487fd815ec7ade86c3e1101219e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        revision="25.0.3"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\firebase-client-jvm-2.5.2-493ac170738c03740ddf6f24a9a5a5f142b6576d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\649dc4284512d4d4a9cb027eb04f23312fa43f7d\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="c879101226d1b2aaf6edae3d7491de6fd56d2659">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-cb9890a0c9c262e31999f1ca1c098d7452d15d13.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\723aa26ad4cf5ef1eb16a668f7056ce2e06c8731\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1e3c1bd00547f4031c4224d9bb1c444d8c812e71.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\7282ca8b92e06034c5f87300a244edb4573dd635\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9f72f0cdd92b6c4e650245ef3e2b8cd3312c7cd1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\800356971e2b863b2cf0aad824cde3a48a798c10\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="183fcbfcca75b095b63125f5e31ebd8b5f5f3216">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-13837688791da3016c4256aa8e37161387991f5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\4046618eb37d927497f3719b59f0fb6c236f329a\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="40a6b8f05124eb9e6012e18b80a6dbd13440e283">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a98521459be3c766e593e65fd7d90c6b1a399b91.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\b747f4e455d679f7be991bc3ff6d678ee044c06f\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-91dc908f989d25404fa61dff1aa72eee7a61633b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\20890fdb3cfefb49b37469e4ed4dacb259e89053\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="d4ba7399a1a4f5c998b5ce4f6bf33a2e8347820c">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-27cb77a7d07b569bc4d80c6a6c38de0bb1aed90d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
+        revision="25.0.3"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.4.0-f990238ae72589aaf8277dfd31cd9a194fed954a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\3ee3ac505ca004cf281b805da662c7d1d550f00c\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a00806f28eb1719c567c7184e5bb0f4a4550e036.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\fa86ff34720d55f947681f3a8459ec02f58f0e36\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="6bd32b72098fecf44dcab3808a11e6b9fcb86b7b">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-5f06a247baefd89347ae673d9e5f877d3c241ad2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\cc63aa0e3f3a11247664015c9124afbc4393cbb2\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8d1dd918e53880f3ff7887860d854bd2e68e4a4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\5493f44e21751a035b7876aeacc890f369fffc83\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-f4c44413298a91dfacb046b6b657f69927500eaa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\dd0771a71823233a55b50a3dae8bcbe61d0d8326\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="b4fa53b1dbc43a65e9cbcbfe25f4abc47264e78c">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-da9c01e52aa721a2359601ca483c79846fa44a7c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\cf3a8cf8d478f3bf474236c0e56b36470ec4da68\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-354e99981d2072fde5880e338ebe68a73a4a67c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\18e3c9bd162230dcc9de34491830ec83d82cf9fd\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-628272cdb2c875242a23bf8cbe1c44ccad2f27fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        revision="25.0.3"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-databind-2.2.2-ceae4a13c88a42686afd76c7ac4bd7a330ad1c97.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\99a547c197bce16380c1647812bbcfef30b72a9e\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="b77e50b3c31d0fc64148530f7077f79ec114b5b9">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-96e57fd5f411b871dd3a730832cf7c247553ab89.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\5cef080542aeec45b4189b6d0bae159731a898dd\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="e49277142d9d1ef0b7635d9f2af54426d2d12f46">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-289cb868ca70a88600a26770db59e2cf977d1a41.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\5a4c2893d5b66b6520d7048c9f47e76ba31f3dc4\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7bbf151214f3e5ccd5e8df6a0fb0ef37ef28ba88.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.3\gson-2.3.jar"
+        revision="25.0.3"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gson-2.3-c474ccbe88d0700476e306916dbac480ac7521ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\e590fe814b11c7df0a741378074ebb28f066b78e\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="4961be1437163ab598620a3c907c0f3432936f51">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e9a5161c4719a5b77dd429d3b37911c69ec94bfd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\7ac8e60bc270cd0c042bc4582f4dc0128c8cea8c\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="804d5ac4a043ce845ffe58c8913feb793d3a568b">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e034ab71ace9c486d53fd5290e549db203ce8629.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.8.0\9bada650e1afe9c6174ddc0d113c1fce4dc26fe0\glide-3.8.0.jar"
+        revision="25.0.3"
+        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\glide-3.8.0-05ed6c279ba69c1f4b9d22557cd48f7ef1aca2a8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\f887433fa032d25a6a02c45b33b8141e422c12e7\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="f200454bd6851899efe021d2a4673959986edaed">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-12290ef12608c0a2331d23c5dc13862774509b0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.7\69d90fd7fb70e54746e26c10454c220e40a775ce\otto-1.3.7.jar"
+        revision="25.0.3"
+        sha1="69d90fd7fb70e54746e26c10454c220e40a775ce">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\otto-1.3.7-8b2b078a3fff9236763885581c88f711531fb076.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\44f56126dcde899be2de6d0ce89457c49414ca81\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="a7a0aa678c3bbadb67fb41df9e107f7ee9087902">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1bc96d7ae033a09628390aa32d4746f81e44fc9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\f823b0496646e16897bc1cb8eeb81870dbc5271a\output\jars\classes.jar"
         revision="25.0.3"
         sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-664da878bc17079220bad786787f74f88550a666.jar" />
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-fdfa1115a8810c33a29cbb04b04fd6dbb4e058d7.jar" />
     </item>
     <item
-        jar="C:\Users\ACER V5\.android\build-cache\0618c75d5a4c4363e659b1aa296973f180e5f9c1\output\jars\classes.jar"
+        jar="C:\Users\Al-Fatih\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         revision="25.0.3"
-        sha1="90095b555b72205db6f9b93aca3cb9978d1e3344">
-        <dex dex="E:\O L M A T I X\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-83ab397efddad4da3f16e6d23c88423a9513b139.jar" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-2b89fddc6d0a54af0d8c14f5dcf3f9499e2321ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\74e17801f7583aac797283ab20f0528694edfd7f\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="e0891a69f24747a6988698a57fd55825b31251fa">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1652272b91cd4d144a10bbbbd014badaf0d133a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\02f6a52682ada5f84e75325402ae3408718cbaf9\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="32054268e6c9fdff0c9c5deafafd0bd105120fb6">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-44663bc58e052faf0daa2c624b3a10ae304d2463.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\26a56725a5b9b7b9f3a3575a982dd0e743386eac\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6c1a0cfdd482d1651793e49677053e7c1a9e69b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\08a2e754881640c627dc957c61a5f8b9665d6315\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="f1b060f6b85ba98da7fc2a4237ff79c90c24c37c">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-80fb3879ad7983bbeec23c671a0f2e766e3e8a61.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\8470451ae4a0b23c4a424a3449142b0124419fbc\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="1be1e13ff67a66921003e6d52a058d04fb048278">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-79187dbf0280b7040207c62ddb3034a970bdb42a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        revision="25.0.3"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\firebase-client-android-2.5.2-90c3d55d2e7ebadfc922ed99807c2f8c35b730d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        revision="25.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\library-2.4.0-da2abe3ca56ec36ed8baf07662e0ed9a7be45b87.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\libs\itext5-itextpdf-5.5.12.jar"
+        revision="25.0.3"
+        sha1="319e58e4c84e0b8f8aa1a2255510453490883635">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\itext5-itextpdf-5.5.12-691e6612323029a9897d94a2e573549e75eaf004.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\5be49ff1435eed71f0de4436c9ba7fd78d81ab64\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="e00b71dcf2fbecaf59b0d487d11839522dd7863d">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-82ee5dafb80a94089168ac0203665d312ae44673.jar" />
+    </item>
+    <item
+        jar="C:\Users\Al-Fatih\.android\build-cache\64ed35ac1a00d29c707ac8ae2b9cf38aaf6e4513\output\jars\classes.jar"
+        revision="25.0.3"
+        sha1="5bd38c72db0a3b4140d38b7fb527e78e46126d79">
+        <dex dex="C:\Users\Al-Fatih\StudioProjects\WAmonitoring-v1.63\wamonitoring\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-93c8b65313957194a5f268cf013b37b2aa38e440.jar" />
     </item>
 
 </items>

@@ -1,7 +1,7 @@
 package com.lesjaw.wamonitoring.utils;
 
 /**
- * Created by lesjaw@gmail.com on 25/09/2017.
+ * Created by lesjaw@gmail.com on 25/09/2017
  */
 
 public class Config {

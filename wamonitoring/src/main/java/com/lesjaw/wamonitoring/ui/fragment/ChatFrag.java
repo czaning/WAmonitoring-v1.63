@@ -82,6 +82,12 @@ public class ChatFrag extends Fragment {
                 viewPagerAdapter.addFragment(new ChatUsers(), "Users");
                 viewPager.setOffscreenPageLimit(2);
                 break;
+            case "4":
+                viewPagerAdapter.addFragment(new ChatCompany(), "Company");
+//                viewPagerAdapter.addFragment(new ChatUsers(), "Users");
+                viewPagerAdapter.addFragment(new ChatAM(), "AM");
+                viewPager.setOffscreenPageLimit(2);
+                break;
         }
 
         viewPager.setAdapter(viewPagerAdapter);

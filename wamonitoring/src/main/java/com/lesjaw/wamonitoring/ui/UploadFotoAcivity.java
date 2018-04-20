@@ -286,7 +286,6 @@ public class UploadFotoAcivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-
         }
 
         @Override

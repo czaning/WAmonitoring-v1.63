@@ -157,7 +157,74 @@ public class ListTagsActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         } else if(mLevelUser.equals("4")){
+            String sDivision = mPrefHelper.getDivisionFull();
+            Log.d("DIVISION FULL GROUP",sDivision);
+            JSONObject jsonResponse1;
+            try {
+                jsonResponse1 = new JSONObject(sDivision);
+                JSONArray cast1 = jsonResponse1.getJSONArray("division");
+                for (int i = 0; i < cast1.length(); i++) {
+                    JSONObject div_name = cast1.getJSONObject(i);
+                    String name = div_name.getString("cid");
+                    String Divname = div_name.getString("name");
 
+                    List<tagsModel> tagList1 = new ArrayList<>();
+
+                    sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+                    String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+
+                    String url;
+                    url = "https://olmatix.com/wamonitoring/get_tags_data_all_by_name.php";
+
+                    // Log.d(TAG, "getTagsbyName: " + " " + name);
+
+                    StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
+                        JSONObject jsonResponse = null;
+                        try {
+                            jsonResponse = new JSONObject(response);
+
+                            JSONObject jObject = new JSONObject(response);
+                            String result_code = jObject.getString("success");
+
+                            if (result_code.equals("1")) {
+
+                                JSONArray cast = jsonResponse.getJSONArray("tags");
+                                for (int is = 0; is < cast.length(); is++) {
+
+                                    JSONObject tags_name = cast.getJSONObject(is);
+                                    String tid = tags_name.getString("tid");
+                                    String tag_name = tags_name.getString("tag_name");
+                                    String tag_location = tags_name.getString("tag_location");
+                                    //String division_name = tags_name.getString("division_name");
+                                    String time_interval = tags_name.getString("time_interval");
+                                    String type = tags_name.getString("type");
+
+                                    tagsModel tags = new tagsModel(tid, tag_name, tag_location, Divname, time_interval, type);
+                                    tagList1.add(tags);
+                                    //Log.d(TAG, " sections " + name + " add Data: " + tag_name + " div " + division_name);
+                                }
+                                //Log.d(TAG, " sections " + name + " add Data: " + tagList1);
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }, error -> Log.d("DEBUG", "onErrorResponse: " + error)) {
+                        protected Map<String, String> getParams() {
+                            Map<String, String> MyData = new HashMap<>();
+                            MyData.put("company_id", mCompanyID);
+                            MyData.put("divname", name);
+
+                            return MyData;
+                        }
+                    };
+                    NetworkRequest.getInstance(this).addToRequestQueue(jsonObjReq);
+                    sectionAdapter.addSection(new TagListSection(String.valueOf(Divname), tagList1, mContext));
+                    pDialog.cancel();
+                }
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
         } else {
             String name = sharedPref.getString("division", "olmatix1");
             String mCompanyID = sharedPref.getString("company_id", "olmatix1");

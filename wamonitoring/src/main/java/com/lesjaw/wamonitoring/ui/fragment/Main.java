@@ -444,11 +444,14 @@ public class Main extends android.support.v4.app.Fragment {
 
         Log.d(TAG, "getData Notice: ");
         sharedPref = PreferenceManager.getDefaultSharedPreferences(getContext());
+
+
         mPrefHelper = new PreferenceHelper(getContext());
 
         String url;
         if (mLevelUser.equals("4")){
             mCompanyID = mPrefHelper.getGroup();
+            Log.d("mCompanyID",mCompanyID);
              url = Config.DOMAIN + "wamonitoring/get_log_notice_sa.php";
 
         } else {

@@ -28,6 +28,7 @@ import com.lesjaw.wamonitoring.adapter.AbsenPulangAdapter;
 import com.lesjaw.wamonitoring.model.AbsenceModel;
 import com.lesjaw.wamonitoring.utils.Config;
 import com.lesjaw.wamonitoring.utils.EndlessRecyclerViewScrollListener;
+import com.lesjaw.wamonitoring.utils.PreferenceHelper;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -135,16 +136,25 @@ public class LogAbsencePulang extends android.support.v4.app.Fragment {
         sharedPref = PreferenceManager.getDefaultSharedPreferences(getContext());
         //mLevelUser = mPrefHelper.getLevelUser();
 
-        String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+        String mCompanyID;
         String mDivision = sharedPref.getString("division", "olmatix1");
 
-        String url = Config.DOMAIN+"wamonitoring/get_absen_out.php";
+        PreferenceHelper mPrefHelper = new PreferenceHelper(getContext());
+        String mLevelUser = mPrefHelper.getLevelUser();
+        String url;
+        if(mLevelUser.equals("4")){
+            mCompanyID = mPrefHelper.getGroup();
+            url = Config.DOMAIN+"wamonitoring/get_absen_out_group.php";
+        }else{
+            mCompanyID = sharedPref.getString("company_id", "olmatix1");
+            url = Config.DOMAIN+"wamonitoring/get_absen_out.php";
+        }
 
         StringRequest jsonObjReq = new StringRequest(Request.Method.POST, url, response -> {
+
             try {
                 JSONObject jsonResponse = new JSONObject(response);
-                JSONObject jObject = new JSONObject(response);
-                String result_code = jObject.getString("success");
+                String result_code = jsonResponse.getString("success");
                 if (result_code.equals("1")) {
                     JSONArray cast = jsonResponse.getJSONArray("absen");
 
@@ -153,7 +163,6 @@ public class LogAbsencePulang extends android.support.v4.app.Fragment {
                     }
 
                     for (int i = 0; i < cast.length(); i++) {
-
                         JSONObject tags_name = cast.getJSONObject(i);
                         String employee_name = tags_name.getString("employee_name");
                         String email = tags_name.getString("email");
@@ -170,33 +179,29 @@ public class LogAbsencePulang extends android.support.v4.app.Fragment {
                         AbsenceModel tags = new AbsenceModel(employee_name, email,
                                 date_created_masuk, date_created_pulang, latitude, longitude, working_gps, log_status,
                                 phone1, phone2,range_loc);
-
                         tagList.add(tags);
-
-
                     }
                     mAdapter.notifyDataSetChanged();
-
                     mSwipeRefreshLayout.setRefreshing(false);
-
-
                 } else {
                     mSwipeRefreshLayout.setRefreshing(false);
-
-
                 }
 
             } catch (JSONException e) {
                 e.printStackTrace();
                 mSwipeRefreshLayout.setRefreshing(false);
             }
-
+            Log.d("GROUP_response",response);
         }, error -> Log.d("DEBUG", "onErrorResponse: "+error)) {
             protected Map<String, String> getParams() {
                 Map<String, String> MyData = new HashMap<>();
                 MyData.put("company_id", mCompanyID);
                 MyData.put("division", mDivision);
                 MyData.put("offsett", page);
+                Log.d("GROUP_mCompanyID",mCompanyID);
+                Log.d("GROUP_mDivision",mDivision);
+                Log.d("GROUP_page",page);
+                Log.d("GROUP_url",url);
 
                 return MyData;
             }
