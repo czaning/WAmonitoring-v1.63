@@ -171,10 +171,10 @@ public class ListTagsActivity extends AppCompatActivity {
                     List<tagsModel> tagList1 = new ArrayList<>();
 
                     sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
-                    String mCompanyID = sharedPref.getString("company_id", "olmatix1");
+                    String mCompanyID = mPrefHelper.getGroup();
 
                     String url;
-                    url = "https://olmatix.com/wamonitoring/get_tags_data_all_by_name.php";
+                    url = "https://olmatix.com/wamonitoring/get_tags_data_all_by_group.php";
 
                     // Log.d(TAG, "getTagsbyName: " + " " + name);
 

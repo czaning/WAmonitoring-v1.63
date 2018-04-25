@@ -36,6 +36,7 @@ import com.lesjaw.wamonitoring.ui.fragment.CreateDivision;
 import com.lesjaw.wamonitoring.ui.fragment.CreateEmployment;
 import com.lesjaw.wamonitoring.ui.fragment.CreateStatus;
 import com.lesjaw.wamonitoring.ui.fragment.CreateTags;
+import com.lesjaw.wamonitoring.ui.fragment.CreateWorkingPlan;
 import com.lesjaw.wamonitoring.ui.fragment.ListTags;
 import com.lesjaw.wamonitoring.ui.fragment.UserRegisBarcode;
 import com.lesjaw.wamonitoring.utils.Config;
@@ -147,8 +148,8 @@ public class DBStructureActivity extends AppCompatActivity {
 
             if (i == 5) {
                 builder.normalImageRes(R.mipmap.ic_password)
-                        .normalText("Create Logout password")
-                        .subNormalText("Click to create logout password for each division");
+                        .normalText("Create Working Plan")
+                        .subNormalText("Click to create working plan");
             }
 
 
@@ -243,6 +244,74 @@ public class DBStructureActivity extends AppCompatActivity {
                 }
 
                 if (index == 5) {
+                    CreateWorkingPlan createWorkingPlan = new CreateWorkingPlan();
+                    fragmentTransaction.replace(R.id.fragment_container, createWorkingPlan, "HELLO");
+                }
+
+                //fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+
+            });
+            bmb.isDraggable();
+            bmb.addBuilder(builder);
+
+        }
+
+        for (int i = 0; i < bmb1.getPiecePlaceEnum().pieceNumber(); i++) {
+            HamButton.Builder builder = new HamButton.Builder();
+
+
+            if (i == 0) {
+                builder.normalImageRes(R.mipmap.barcode_img)
+                        .normalText("View Tags/Checkpoint")
+                        .subNormalText("Click to view, print or write tags/checkpoint");
+            }
+
+            if (i == 1) {
+                builder.normalImageRes(R.mipmap.ic_employee)
+                        .normalText("View Tags self user registration")
+                        .subNormalText("Click to view, print or write user registration");
+            }
+
+
+            if (i == 2) {
+                builder.normalImageRes(R.mipmap.ic_password)
+                        .normalText("Create Logout password")
+                        .subNormalText("Click to create logout password for each division");
+            }
+
+            builder.listener(index -> {
+                // When the boom-button corresponding this builder is clicked.
+
+                android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
+                android.support.v4.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                if (index == 0) {
+                    ListTags hello = new ListTags();
+                    fragmentTransaction.replace(R.id.fragment_container, hello, "HELLO");
+                }
+
+                if (index == 1) {
+
+                    /*Intent i1 = new Intent(DBStructureActivity.this, BarcodeGenerator.class);
+                    i1.putExtra("barcode", mPrefHelper.getDivName()+ " user registration");
+                    i1.putExtra("barname", "User Registration");
+                    i1.putExtra("division",sharedPref.getString("division", "jakarta"));
+                    i1.putExtra("loc", mPrefHelper.getTagLatitude()+","+mPrefHelper.getTagLongitude());
+
+                    startActivity(i1);*/
+                    Bundle bundle = new Bundle();
+                    bundle.putString("barcode", sharedPref.getString("division", "jakarta")+","+pCompanyID+","+pCompanyAddress+","+pCompanyName);
+                    bundle.putString("barname", "User Registration");
+                    bundle.putString("division", mPrefHelper.getDivName());
+                    bundle.putString("loc", mPrefHelper.getTagLatitude()+","+mPrefHelper.getTagLongitude());
+
+                    UserRegisBarcode data1 = new UserRegisBarcode();
+                    data1.setArguments(bundle);
+                    fragmentTransaction.replace(R.id.fragment_container, data1);
+
+                }
+
+                if (index == 2) {
                     String divId = sharedPref.getString("division", "olmatix1");
 
                     final EditText pass = new EditText(DBStructureActivity.this);
@@ -261,7 +330,7 @@ public class DBStructureActivity extends AppCompatActivity {
                             .setView(layout)
                             .setPositiveButton("Send", (dialog, id) -> {
 
-                               // SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
+                                // SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
                                 //String tgl = df.format(Calendar.getInstance().getTime());
 
                                 String url = Config.DOMAIN+"wamonitoring/insert_update_pass_logout.php";
@@ -310,63 +379,6 @@ public class DBStructureActivity extends AppCompatActivity {
                             .setNegativeButton("Cancel", (dialog, id) -> dialog.dismiss())
 
                             .show();
-
-                }
-
-                //fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-
-            });
-            bmb.isDraggable();
-            bmb.addBuilder(builder);
-
-        }
-
-        for (int i = 0; i < bmb1.getPiecePlaceEnum().pieceNumber(); i++) {
-            HamButton.Builder builder = new HamButton.Builder();
-
-
-            if (i == 0) {
-                builder.normalImageRes(R.mipmap.barcode_img)
-                        .normalText("View Tags/Checkpoint")
-                        .subNormalText("Click to view, print or write tags/checkpoint");
-            }
-
-            if (i == 1) {
-                builder.normalImageRes(R.mipmap.ic_employee)
-                        .normalText("View Tags self user registration")
-                        .subNormalText("Click to view, print or write user registration");
-            }
-
-
-            builder.listener(index -> {
-                // When the boom-button corresponding this builder is clicked.
-
-                android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
-                android.support.v4.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                if (index == 0) {
-                    ListTags hello = new ListTags();
-                    fragmentTransaction.replace(R.id.fragment_container, hello, "HELLO");
-                }
-
-                if (index == 1) {
-
-                    /*Intent i1 = new Intent(DBStructureActivity.this, BarcodeGenerator.class);
-                    i1.putExtra("barcode", mPrefHelper.getDivName()+ " user registration");
-                    i1.putExtra("barname", "User Registration");
-                    i1.putExtra("division",sharedPref.getString("division", "jakarta"));
-                    i1.putExtra("loc", mPrefHelper.getTagLatitude()+","+mPrefHelper.getTagLongitude());
-
-                    startActivity(i1);*/
-                    Bundle bundle = new Bundle();
-                    bundle.putString("barcode", sharedPref.getString("division", "jakarta")+","+pCompanyID+","+pCompanyAddress+","+pCompanyName);
-                    bundle.putString("barname", "User Registration");
-                    bundle.putString("division", mPrefHelper.getDivName());
-                    bundle.putString("loc", mPrefHelper.getTagLatitude()+","+mPrefHelper.getTagLongitude());
-
-                    UserRegisBarcode data1 = new UserRegisBarcode();
-                    data1.setArguments(bundle);
-                    fragmentTransaction.replace(R.id.fragment_container, data1);
 
                 }
 

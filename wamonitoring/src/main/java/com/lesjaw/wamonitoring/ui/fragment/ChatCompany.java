@@ -174,9 +174,6 @@ public class ChatCompany extends Fragment {
             }
         });
 
-
-
-
         sendBtnCom.setOnClickListener(v -> {
             SimpleDateFormat timeformat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
             times = timeformat.format(System.currentTimeMillis());
